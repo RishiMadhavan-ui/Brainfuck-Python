@@ -3,8 +3,12 @@ This is just a small Brainfuck interpreter written in Python.
 Usage:
  ./brainfuck.py yourcode.bf
  
- For command prompt: 
- python Brainfuck.py "Brainfuck Code\NameOfFile.bf"
+ Instruction: 
+  Go to location of download
+  Make sure you're in the folder "Brainfuck-Python"
+  Click on the location so it's highlighted
+  Type "cmd"
+  Enter python Brainfuck.py "Brainfuck Code\NameOfFile.bf"
 
 You can use it as a module as well:
   import brainfuck
@@ -16,6 +20,10 @@ You can use it as a module as well:
   """
 
   brainfuck.evaluate(sourcecode)
+  
+ ASCII Table: 
+  https://www.asciitable.com/
+  
 
 http://en.wikipedia.org/wiki/Brainfuck
 
